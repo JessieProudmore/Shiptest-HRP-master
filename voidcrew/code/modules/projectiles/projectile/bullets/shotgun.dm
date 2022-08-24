@@ -1,16 +1,16 @@
 /obj/projectile/bullet/pellet/shotgun_buckshot
 	name = "buckshot pellet"
-	damage = 10
+	damage = 15
 	armour_penetration = -20
 
 /obj/projectile/bullet/shotgun_slug
 	name = "12g shotgun slug"
-	damage = 45
+	damage = 60
 
 /obj/projectile/bullet/shotgun_beanbag
 	name = "beanbag slug"
 	damage = 5
-	stamina = 45
+	stamina = 60
 	armour_penetration = -10
 /obj/projectile/bullet/incendiary/shotgun
 	name = "incendiary slug"
@@ -34,7 +34,7 @@
 	name = "meteorslug"
 	icon = 'icons/obj/meteor.dmi'
 	icon_state = "dust"
-	damage = 30
+	damage = 45
 	paralyze = 15
 	knockdown = 80
 	hitsound = 'sound/effects/meteorimpact.ogg'
@@ -52,7 +52,7 @@
 
 /obj/projectile/bullet/shotgun_frag12
 	name ="frag12 slug"
-	damage = 25
+	damage = 45
 	paralyze = 50
 
 /obj/projectile/bullet/shotgun_frag12/on_hit(atom/target, blocked = FALSE)

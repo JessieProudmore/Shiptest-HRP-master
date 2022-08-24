@@ -6,14 +6,14 @@
 /obj/projectile/bullet/pellet/shotgun_rubbershot
 	name = "rubbershot pellet"
 	damage = 2						//WS Edit Begin - Shotgun Nerf
-	stamina = 8
+	stamina = 12
 	armour_penetration = -20
 	tile_dropoff = 0.2			// Keep it at 10% per tile	//WS Edit End
 
 /obj/projectile/bullet/pellet/shotgun_incapacitate
 	name = "incapacitating pellet"
 	damage = 1
-	stamina = 6
+	stamina = 8
 
 /obj/projectile/bullet/pellet/Range()
 	..()
@@ -40,4 +40,4 @@
 // Mech Scattershot
 
 /obj/projectile/bullet/scattershot
-	damage = 25 //VoidTest Edit, changes 24 to 25
+	damage = 35 //VoidTest Edit, changes 24 to 25

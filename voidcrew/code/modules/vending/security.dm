@@ -65,7 +65,9 @@
 		"M-90gl Carbine" = /obj/item/gun/ballistic/automatic/m90/unrestricted,
 		"sniper rifle" = /obj/item/gun/ballistic/automatic/sniper_rifle,
 		"C-20r SMG" = /obj/item/gun/ballistic/automatic/c20r/unrestricted,
-		"Bulldog Shotgun" = /obj/item/gun/ballistic/shotgun/bulldog/unrestricted)
+		"Bulldog Shotgun" = /obj/item/gun/ballistic/shotgun/bulldog/unrestricted,
+		"M514 EBR" = /obj/item/gun/ballistic/automatic/ebr,
+		"10mm pistol" = /obj/item/gun/ballistic/automatic/pistol)
 
 /obj/machinery/vending/security/marine/solgov
 	icon_state = "solgov-marine"
@@ -91,7 +93,27 @@
 	voucher_items = list(
 		"Tactical Energy Gun" = /obj/item/gun/energy/e_gun/stun,
 		"SGV \"Solar\" Assault Rifle" = /obj/item/gun/ballistic/automatic/solar,
-		"TGV \"Edison\" Energy Rifle" = /obj/item/gun/energy/laser/terra)
+		"TGV \"Edison\" Energy Rifle" = /obj/item/gun/energy/laser/terra,
+		"SolGov M9C" = /obj/item/gun/ballistic/automatic/pistol/solgov)
+
+/obj/machinery/vending/security/marine/solgov
+	name = "\improper clothing"
+	icon_state = "solgov-marine"
+	icon_deny = "solgov-marine-deny"
+	light_mask = "solgov-marine-mask"
+	icon_vend = "solgov-marine-vend"
+	req_access = list(ACCESS_SECURITY)
+	products = list(
+		/obj/item/clothing/suit/armor/vest/solgov = 3,
+		/obj/item/clothing/head/helmet/solgov = 3,
+		/obj/item/clothing/under/solgov = 3,
+		/obj/item/clothing/under/solgov/elite = 3,
+		/obj/item/clothing/under/solgov/elite = 3,
+		/obj/item/clothing/head/beret/solgov = 3,
+		/obj/item/clothing/suit/space/hardsuit/solgov = 2,
+		/obj/item/storage/belt/military/army = 3)
+
+
 
 /obj/item/gun_voucher
 	name = "security weapon voucher"

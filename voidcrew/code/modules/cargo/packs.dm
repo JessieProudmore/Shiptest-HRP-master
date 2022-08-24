@@ -62,3 +62,38 @@
 		/obj/item/device/cassette_tape/friday,
 	)
 	crate_name = "Crate of Random Cassettes"
+
+/datum/supply_pack/security/armory/marinevend
+	name = "Sol-Gov Marine vendor"
+	cost = 35000
+	desc = "Contains one Marine vendor for weapons"
+	contains = list(/obj/machinery/vending/security/marine/solgov)
+	crate_name = "SolGov Vendor crate"
+
+/datum/supply_pack/security/armory/syndievend
+	name = "Syndicate Marine vendor"
+	cost = 35000
+	desc = "Contains one Marine vendor for weapons"
+	contains = list(/obj/machinery/vending/security/marine)
+	crate_name = "Syndicate Vendor crate"
+
+/datum/supply_pack/security/armory/voucher
+	name = "Weapon Voucher"
+	cost = 5000
+	desc = "Contains one weapons voucher"
+	contains = list(/obj/item/gun_voucher)
+	crate_name = "Voucher crate"
+
+/datum/supply_pack/security/armory/civvend
+	name = "Civilian Weapons vendor"
+	cost = 10000
+	desc = "Contains one Marine vendor for weapons"
+	contains = list(/obj/machinery/vending/security/CivGuns)
+	crate_name = "Gang crate"
+
+/datum/supply_pack/security/armory/marinevend
+	name = "Sol-Gov Marine clothing vendor"
+	cost = 5000
+	desc = "Contains one Marine vendor for equipment"
+	contains = list(/obj/machinery/vending/security/marine/solgov)
+	crate_name = "SolGov Vendor crate"

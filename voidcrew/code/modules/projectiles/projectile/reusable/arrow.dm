@@ -8,7 +8,7 @@
 
 /obj/projectile/bullet/reusable/arrow/wood
 	name = "Wooden arrow"
-	damage = 15
+	damage = 25
 	ammo_type = /obj/item/ammo_casing/caseless/arrow/wood
 
 /obj/projectile/bullet/reusable/arrow/ash

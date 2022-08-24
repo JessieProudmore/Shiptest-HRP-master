@@ -2,19 +2,19 @@
 
 /obj/projectile/bullet/n762
 	name = "7.62x38mmR bullet"
-	damage = 60
+	damage = 75
 
 // .50AE (Desert Eagle)
 
 /obj/projectile/bullet/a50AE
 	name = ".50AE bullet"
-	damage = 60
+	damage = 75
 
 // .38 (Detective's Gun & Winchester)
 
 /obj/projectile/bullet/c38
 	name = ".38 bullet"
-	damage = 25
+	damage = 36
 	ricochets_max = 2
 	ricochet_chance = 50
 	ricochet_auto_aim_angle = 10
@@ -33,7 +33,7 @@
 /obj/projectile/bullet/c38/match/bouncy
 	name = ".38 Rubber bullet"
 	damage = 10
-	stamina = 30
+	stamina = 45
 	armour_penetration = -30
 	ricochets_max = 6
 	ricochet_incidence_leeway = 70

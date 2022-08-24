@@ -46,3 +46,28 @@
 
 /obj/item/vending_refill/security
 	icon_state = "refill_sec"
+
+/obj/machinery/vending/security/CivGuns
+	name = "\improper CivTech"
+	desc = "A civilian equipment vendor."
+	product_ads = "Crack capitalist skulls!;Beat some heads in!;Don't forget - harm is good!;Your weapons are right here.;Handcuffs!;Freeze, scumbag!;Don't tase me bro!;Tase them, bro.;Why not have a donut?"
+	icon_state = "sec"
+	icon_deny = "sec-deny"
+	light_mask = "sec-light-mask"
+	req_access = list(ACCESS_SECURITY)
+	products = list(
+			/obj/item/ammo_box/c9mm = 3,
+			/obj/item/ammo_box/magazine/uzim9mm = 4,
+			/obj/item/ammo_box/magazine/smgm9mm = 4,
+			/obj/item/ammo_box/magazine/co9mm = 6,
+			/obj/item/storage/box/lethalshot= 4)
+	refill_canister = /obj/item/vending_refill/security
+	default_price = 650
+	extra_price = 700
+	payment_department = ACCOUNT_SEC
+
+	voucher_items = list(
+		"Uzi 9mm" = /obj/item/gun/ballistic/automatic/mini_uzi,
+		"Commander 9mm" = /obj/item/gun/ballistic/automatic/pistol/commander,
+		"Vector SMG" = /obj/item/gun/ballistic/automatic/vector,
+		"Hunting Shotgun" = /obj/item/gun/ballistic/shotgun/lethal)

@@ -1,10 +1,10 @@
 // C3D (Borgs)
 
 /obj/projectile/bullet/c3d
-	damage = 20
+	damage = 35
 
 /obj/projectile/bullet/ctac
-	damage = 40
+	damage = 55
 	armour_penetration = 35
 	speed = 0.4
 

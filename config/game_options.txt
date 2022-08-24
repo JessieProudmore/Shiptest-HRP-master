@@ -32,8 +32,8 @@ EMOJIS
 ## To speed things up make the number negative, to slow things down, make the number positive.
 
 ## These modify the run/walk speed of all mobs before the mob-specific modifiers are applied.
-RUN_DELAY 1.5
-WALK_DELAY 3
+RUN_DELAY 2.5
+WALK_DELAY 4
 
 ## The variables below affect the movement of specific mob types. THIS AFFECTS ALL SUBTYPES OF THE TYPE YOU CHOOSE!
 ## Entries completely override all subtypes. Later entries have precedence over earlier entries.
@@ -549,7 +549,7 @@ Space_Budget 16
 
 ## How many wirechewing rodents you want to spawn on exposed maintenane wires at the start of the round. You may wish to set this to 0 if you're testing powernets.
 
-MICE_ROUNDSTART 10
+MICE_ROUNDSTART 0
 
 ## How many smuggler's satchels you want to spawn under tiles roundstart. You may wish to set this lower on smaller maps.
 
@@ -590,7 +590,7 @@ MAXFINE 2000
 ECONOMY
 
 ## Put the name of your custom currency here
-METACURRENCY_NAME Metacoin
+METACURRENCY_NAME Transcending Coin
 
 ## Overmap Settings ##
 

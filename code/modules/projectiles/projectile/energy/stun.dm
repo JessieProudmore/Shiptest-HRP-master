@@ -4,7 +4,7 @@
 	color = "#FFFF00"
 	nodamage = FALSE
 	hitsound = 'sound/weapons/taserhit.ogg'
-	damage = 40
+	damage = 75
 	damage_type = STAMINA
 	stutter = 5
 	jitter = 20

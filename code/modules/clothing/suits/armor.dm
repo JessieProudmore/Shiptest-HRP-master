@@ -9,7 +9,7 @@
 	equip_delay_other = 40
 	max_integrity = 250
 	resistance_flags = NONE
-	armor = list("melee" = 35, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 45, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	greyscale_colors = list(list(14, 18))
 	greyscale_icon_state = "armor"
 
@@ -44,7 +44,7 @@
 	icon_state = "blueshift"
 	item_state = "blueshift"
 	custom_premium_price = 400
-	armor = list("melee" = 45, "bullet" = 40, "laser" = 40, "energy" = 50, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 75, "acid" = 75)
+	armor = list("melee" = 65, "bullet" = 55, "laser" = 55, "energy" = 55, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 75, "acid" = 75)
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	slowdown = 0.4
 
@@ -54,7 +54,7 @@
 	icon_state = "hos"
 	item_state = "greatcoat"
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
-	armor = list("melee" = 45, "bullet" = 35, "laser" = 35, "energy" = 50, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 75, "acid" = 75)
+	armor = list("melee" = 65, "bullet" = 55, "laser" = 55, "energy" = 55, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 75, "acid" = 75)
 	cold_protection = CHEST|GROIN|LEGS|ARMS
 	heat_protection = CHEST|GROIN|LEGS|ARMS
 	strip_delay = 80
