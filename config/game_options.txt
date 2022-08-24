@@ -262,10 +262,10 @@ MAX_TICKETS_PER_ROLL 100
 DYNAMIC_CONFIG_ENABLED
 
 ## This determines the number of ships to initially spawn
-INITIAL_SHUTTLE_COUNT 1
+INITIAL_SHUTTLE_COUNT 0
 
 ## This determines how many pairs of combat ships to create (1 is two ships)
-INITIAL_COMBAT_SHUTTLE_PAIRS 1
+INITIAL_COMBAT_SHUTTLE_PAIRS 0
 
 ## RANDOM EVENTS ###
 ## Comment this out to disable random events during the round.
