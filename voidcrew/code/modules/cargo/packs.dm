@@ -91,9 +91,9 @@
 	contains = list(/obj/machinery/vending/security/CivGuns)
 	crate_name = "Gang crate"
 
-/datum/supply_pack/security/armory/marinevend
+/datum/supply_pack/security/armory/marineclothvend
 	name = "Sol-Gov Marine clothing vendor"
 	cost = 5000
 	desc = "Contains one Marine vendor for equipment"
-	contains = list(/obj/machinery/vending/security/marine/solgov)
+	contains = list(/obj/machinery/vending/solgovwear)
 	crate_name = "SolGov Vendor crate"

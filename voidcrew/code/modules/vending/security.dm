@@ -96,8 +96,10 @@
 		"TGV \"Edison\" Energy Rifle" = /obj/item/gun/energy/laser/terra,
 		"SolGov M9C" = /obj/item/gun/ballistic/automatic/pistol/solgov)
 
-/obj/machinery/vending/security/marine/solgov
-	name = "\improper clothing"
+/obj/machinery/vending/solgovwear
+	name = "\improper Marine clothing"
+	desc = "A marine equipment vendor."
+	product_ads = "Please insert your marine voucher in the bottom slot."
 	icon_state = "solgov-marine"
 	icon_deny = "solgov-marine-deny"
 	light_mask = "solgov-marine-mask"
@@ -112,7 +114,7 @@
 		/obj/item/clothing/head/beret/solgov = 3,
 		/obj/item/clothing/suit/space/hardsuit/solgov = 2,
 		/obj/item/storage/belt/military/army = 3)
-
+	refill_canister = /obj/item/vending_refill/security
 
 
 /obj/item/gun_voucher
